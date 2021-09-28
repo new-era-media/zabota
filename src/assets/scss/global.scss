@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.text-center {
+    text-align: center;
+}
+.navBurger {
+    position: fixed;
+    margin: 50px 0 0 50px;
+    cursor: pointer;
+    background: white;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-clip: content-box;
+    width: 50px;
+    height: 24px;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    z-index: 999;
+  }
+  .navBurger:before,
+  .navBurger:after {
+    content: "";
+    position: absolute;
+    background: white;
+    height: 2px;
+    border-radius: 5px;
+    width: 100%;
+    right: 0;
+    will-change: rotate;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black;
+  }
+  .navBurger:before {
+    top: -10px;
+    -webkit-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black;
+  }
+  .navBurger:after {
+    bottom: -10px;
+    width: 100%;
+    -webkit-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black;
+  }
+  .active:after {
+    position: absolute;
+    top: 0px;
+    transform: rotate(135deg) !important;
+  }
+  .active:before {
+    position: absolute;
+    top: 0px;
+    transform: rotate(-135deg) !important;
+  }
+  .active {
+    background-color: transparent;
+  }
+  .menu {
+    width: 400px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      color: white;
+      text-decoration: none;
+      li {
+        list-style-type: none;
+        font-size: 32px;
+        padding: 2rem;
+      }
+    }
+  }
+  .activeMenu {
+    left: 0 !important;
+  }
+  @media screen and (max-width: 767px) {
+    .menu {
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 100%;
+    }
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+
+    .header {
+        width: 100%;
+        background-color: #292929;
+        box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3),
+            10px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .h5 {
+        position: relative;
+        text-align: center;
+        font-weight: 600;
+        padding: 3rem;
+        font-family: "Yanone Kaffeesatz", sans-serif;
+        font-size: 36px;
+        color: white;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 35px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 150px;
+            height: 2px;
+            background-color: white;
+            border-radius: 5px;
+        }
+    }
+
+    .text {
+        margin: 36px 24px;
+
+        &__container {
+            margin-bottom: 30px;
+
+            p {
+                font-size: 20px;
+                margin: 8px 0;
+                line-height: 25px;
+            }
+        }
+    }
+}
