@@ -15,6 +15,8 @@
             li Услуги
         a(href="#OMS" @click="menu")
             li ОМС
+        router-link(to="/price" @click="menu")
+            li Цены
         router-link(to="/staff" @click="menu")
             li Наши врачи
         router-link(to="/about" @click="menu")

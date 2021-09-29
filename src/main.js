@@ -18,7 +18,6 @@ const router = new VueRouter({
       path: "",
       component: () => import("./views/Main.vue")
     },
-    // dynamic segments start with a colon
     {
       path: "/about",
       component: () => import("./views/About.vue")
@@ -26,6 +25,10 @@ const router = new VueRouter({
     {
       path: "/staff",
       component: () => import("./views/Staff.vue")
+    },
+    {
+      path: "/price",
+      component: () => import("./views/Price.vue")
     }
   ]
 });
