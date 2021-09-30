@@ -43,14 +43,6 @@ export default {
   height: 100vh;
   z-index: -1;
 }
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .loader {
   width: 50px;
   height: 50px;
@@ -69,6 +61,14 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 </style>
 
