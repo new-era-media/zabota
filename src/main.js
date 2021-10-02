@@ -7,6 +7,10 @@ AOS.init();
 import VueTyperPlugin from "vue-typer";
 import VueRouter from "vue-router";
 
+import loader from "vue-ui-preloader";
+
+Vue.use(loader);
+
 import "./assets/scss/global.scss"
 
 Vue.use(VueRouter);
@@ -29,6 +33,14 @@ const router = new VueRouter({
     {
       path: "/price",
       component: () => import("./views/Price.vue")
+    },
+    {
+      path: "/license",
+      component: () => import("./views/License.vue")
+    },
+    {
+      path: "/regulations",
+      component: () => import("./views/Regulations.vue")
     }
   ]
 });

@@ -74,7 +74,7 @@ export default {
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  background: url("../../assets/bg.jpg") center center no-repeat;
+  background: url("../../assets/img/bg.jpg") center center no-repeat;
   background-size: cover;
   // -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
   // box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);

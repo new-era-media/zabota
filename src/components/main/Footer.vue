@@ -34,35 +34,35 @@
       <div class="links">
         <div class="link">
           <a target="_blank" href="https://www.rosminzdrav.ru/ru">
-            <img src="@/assets/1.png" alt />
+            <img src="@/assets/img/1.png" alt />
             <p>министерство здравоохранения российской федерации</p>
           </a>
         </div>
         <div class="link">
           <a target="_blank" href="http://www.mz26.ru/">
-            <img src="@/assets/2.png" alt />
+            <img src="@/assets/img/2.png" alt />
             <p>министерство здравоохранения ставропольского края</p>
           </a>
         </div>
         <div class="link">
           <a target="_blank" href="http://ffoms.ru/">
-            <img src="@/assets/3.png" alt />
+            <img src="@/assets/img/3.png" alt />
             <p>федеральный фонд обязательного медицинского страхования</p>
           </a>
         </div>
         <div class="link">
           <a target="_blank" href="http://26reg.roszdravnadzor.ru/">
-            <img src="@/assets/4.png" alt />
+            <img src="@/assets/img/4.png" alt />
             <p>территориальный орган росздравнадзора по ставропольскому краю</p>
           </a>
         </div>
         <div class="link">
           <a target="_blank" href="https://tfomssk.ru/">
-            <img src="@/assets/5.png" alt />
+            <img src="@/assets/img/5.png" alt />
           </a>
         </div>
         <div class="link">
-          <img src="@/assets/1.png" alt />
+          <img src="@/assets/img/1.png" alt />
           <div>
             <p>
               НЕЗАВИСИМАЯ ОЦЕНКА КАЧЕСТВА УСЛОВИЙ ОКАЗАНИЯ УСЛУГ МЕДИЦИНСКИМИ
@@ -86,14 +86,14 @@
   width: 50px;
   height: 80px;
   background-size: contain !important;
-  background: url("../../assets/instagram.png") center center no-repeat;
+  background: url("../../assets/img/instagram.png") center center no-repeat;
 }
 .icon2 {
   margin: 0 10px 0 10px;
   width: 50px;
   height: 80px;
   background-size: contain !important;
-  background: url("../../assets/gmail.png") center center no-repeat;
+  background: url("../../assets/img/gmail.png") center center no-repeat;
 }
 .contacts {
   display: flex;

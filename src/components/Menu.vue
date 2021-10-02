@@ -7,22 +7,19 @@
   )
   .menu(ref="menu")
     ul
-        a(href="#menu" @click="menu")
+        router-link(to="/#" @click="menu")
             li Главная
-        a(href="#about" @click="menu")
-            li О нас
-        a(href="#usl" @click="menu")
-            li Услуги
-        a(href="#OMS" @click="menu")
-            li ОМС
-        router-link(to="/price" @click="menu")
-            li Цены
         router-link(to="/staff" @click="menu")
             li Наши врачи
         router-link(to="/about" @click="menu")
             li Об организации
-</template>
-
+        router-link(to="/license" @click="menu")
+            li Лицензия
+        router-link(to="/price" @click="menu")
+            li Цены
+        router-link(to="/regulations" @click="menu")
+            li Правила для пациентов
+</template>  
 <script>
 export default {
   methods: {

@@ -66,7 +66,7 @@
   }
 }
 .one {
-  background: url("../../assets/koronki.jpg") center center no-repeat;
+  background: url("../../assets/img/koronki.jpg") center center no-repeat;
   position: relative;
   background-size: cover;
   &::after {
@@ -74,7 +74,7 @@
   }
 }
 .two {
-  background: url("../../assets/breketi.jpg") center center no-repeat;
+  background: url("../../assets/img/breketi.jpg") center center no-repeat;
   position: relative;
   background-size: cover;
   &::after {
@@ -82,7 +82,7 @@
   }
 }
 .three {
-  background: url("../../assets/slide4.jpg") center center no-repeat;
+  background: url("../../assets/img/slide4.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
   &::after {
@@ -90,14 +90,14 @@
   }
 }
 .four {
-  background: url("../../assets/udalenie-zubov_.jpg") center center no-repeat;
+  background: url("../../assets/img/udalenie-zubov_.jpg") center center no-repeat;
   position: relative;
   &::after {
     content: "Терапевтические";
   }
 }
 .five {
-  background: url("../../assets/air.jpg") center center no-repeat;
+  background: url("../../assets/img/air.jpg") center center no-repeat;
   background-size: contain;
   position: relative;
   &::after {
@@ -105,7 +105,7 @@
   }
 }
 .six {
-  background: url("../../assets/chistka-ultrazvuk11.jpg") center center no-repeat;
+  background: url("../../assets/img/chistka-ultrazvuk11.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
   &::after {
@@ -118,7 +118,7 @@
   height: 250px;
   border-radius: 20px;
   margin: 30px;
-  background: url("../../assets/pasport.jpg") center center no-repeat;
+  background: url("../../assets/img/pasport.jpg") center center no-repeat;
   background-size: contain;
   position: relative;
   &::after {
@@ -143,7 +143,7 @@
   height: 250px;
   border-radius: 20px;
   margin: 30px;
-  background: url("../../assets/Полис_ОМС_РФ.jpg") center center no-repeat;
+  background: url("../../assets/img/Полис_ОМС_РФ.jpg") center center no-repeat;
   background-size: contain;
   position: relative;
   &::after {
@@ -167,7 +167,7 @@
   width: 250px;
   height: 200px;
   margin: 30px;
-  background: url("../../assets/snils.jpg") center bottom no-repeat;
+  background: url("../../assets/img/snils.jpg") center bottom no-repeat;
   background-size: contain;
   position: relative;
   border-radius: 20px;
