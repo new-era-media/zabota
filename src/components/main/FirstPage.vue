@@ -10,7 +10,7 @@
     </a>
     <div class="firstContainer">
       <h1 class="firstContainerTextOne">
-        <span class="textColor">Стомотолгичесая клиника "Центр здоровья"</span>
+        <span class="textColor">Стоматологическая клиника "Центр здоровья"</span>
       </h1>
       <vue-typer
         :text="[

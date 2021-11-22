@@ -41,7 +41,12 @@ const router = new VueRouter({
     {
       path: "/regulations",
       component: () => import("./views/Regulations.vue")
-    }
+    },
+    {
+      path: "/OMS",
+      component: () => import("./views/OMS.vue")
+    },
+    
   ]
 });
 

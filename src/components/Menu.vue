@@ -7,8 +7,10 @@
   )
   .menu(ref="menu")
     ul
-        router-link(to="/#" @click="menu")
+        router-link(to="/" @click="menu")
             li Главная
+        router-link(to="/OMS" @click="menu")
+            li OMC
         router-link(to="/staff" @click="menu")
             li Наши врачи
         router-link(to="/about" @click="menu")

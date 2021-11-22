@@ -24,10 +24,14 @@
       <div class="polis"></div>
       <div class="snils"></div>
     </div>
+    <img src="../../assets/img/banner.jpg" width="320px" height="180px" class="banner">
   </div>
 </template>
 
 <style lang="scss" scoped>
+.banner{
+  margin: 24px auto;
+}
 .infoBlock {
   padding-top: 3rem;
   margin: 0 auto;

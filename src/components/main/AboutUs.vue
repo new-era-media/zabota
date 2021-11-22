@@ -21,7 +21,7 @@
           >Ставропольский край, c. Александровское, ул. Московская, 11</strong
         >
       </p>
-      <p class="info">Время работы: <strong>9:00 - 20:00</strong></p>
+      <p class="info">Время работы: <strong>10:00 - 20:00</strong></p>
       <p class="info">Наша почта: <strong>center.zdorovya@mail.ru</strong></p>
     </div>
   </div>
