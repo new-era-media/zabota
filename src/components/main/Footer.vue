@@ -21,7 +21,7 @@
 
         <div class="headFoot icons">
           <a
-            href="https://www.instagram.com/center_zdorovya26/?hl=ru"
+            href="https://www.instagram.com/centr_zdorovya26/"      
             target="_blank"
           >
             <div class="icon1"></div>
