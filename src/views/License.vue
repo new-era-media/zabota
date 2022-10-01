@@ -1,5 +1,5 @@
 <template lang="pug">
-  PdfLoader(link="https://onedrive.live.com/embed?cid=10FD6FF67B64984D&resid=10FD6FF67B64984D%211963&authkey=AL2r45oTpGmMq-U&em=2")
+  PdfLoader(link="https://onedrive.live.com/embed?cid=10FD6FF67B64984D&resid=10FD6FF67B64984D%211970&authkey=ALTiYNN7jz9Gs64&em=2")
 </template>
 
 <script>
