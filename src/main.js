@@ -47,6 +47,10 @@ const router = new VueRouter({
       component: () => import("./views/Reviews.vue")
     },
     {
+      path: "/formular",
+      component: () => import("./views/Formular.vue")
+    },
+    {
       path: "/OMS",
       component: () => import("./views/OMS.vue")
     },

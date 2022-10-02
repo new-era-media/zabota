@@ -15,6 +15,8 @@
             li Наши врачи
         router-link(to="/about" @click="menu")
             li Об организации
+        router-link(to="/formular" @click="menu")
+            li Медицинский Формуляр
         router-link(to="/license" @click="menu")
             li Лицензия
         router-link(to="/reviews" @click="menu")
