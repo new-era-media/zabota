@@ -43,6 +43,10 @@ const router = new VueRouter({
       component: () => import("./views/Regulations.vue")
     },
     {
+      path: "/reviews",
+      component: () => import("./views/Reviews.vue")
+    },
+    {
       path: "/OMS",
       component: () => import("./views/OMS.vue")
     },

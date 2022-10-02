@@ -17,6 +17,8 @@
             li Об организации
         router-link(to="/license" @click="menu")
             li Лицензия
+        router-link(to="/reviews" @click="menu")
+            li Отзывы
         router-link(to="/price" @click="menu")
             li Цены
         router-link(to="/regulations" @click="menu")
