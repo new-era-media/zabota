@@ -21,8 +21,6 @@
     </div>
     <div class="infoBlock" data-aos="fade-up">
       <div class="pasport"></div>
-      <div class="polis"></div>
-      <div class="snils"></div>
     </div>
     <img src="../../assets/img/banner.jpg" width="320px" height="180px" class="banner">
   </div>
