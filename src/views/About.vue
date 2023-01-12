@@ -24,7 +24,7 @@ span
       .text__container
         h2 Контактные телефоны, номера телефонов справочных служб, адреса электронной почты:
         p 
-          a(href="tel:89283100101") 89283100101
+          a(href="tel:89624333101") 8-962-433-31-01
         p 
           a(href="mailto:svetlograd_zabota@mail.ru", target="_blank") Адрес электронной почты: svetlograd_zabota@mail.ru
       .text__container

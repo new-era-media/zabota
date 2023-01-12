@@ -2,10 +2,10 @@
   <div class="first-container" id="menu">
     <Menu />
     <!-- номер телефона -->
-    <a href="tel:89283100101">
+    <a href="tel:89624333101">
       <div class="phone-icon">
         +7-
-        <span class="textColor">(928)</span>-310-01-01
+        <span class="textColor">(962)</span>-433-31-01
       </div>
     </a>
     <div class="firstContainer">

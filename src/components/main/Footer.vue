@@ -16,7 +16,7 @@
 
         <div class="headFoot">
           <h2>Телефон:</h2>
-          <p><a href="tel:89283100101">+7-(928)-310-01-01</a></p>
+          <p><a href="tel:89624333101">8-(962)433-31-01</a></p>
         </div>
 
         <div class="headFoot icons">
